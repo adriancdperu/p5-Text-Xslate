@@ -1,5 +1,6 @@
 package Text::Xslate;
 # The Xslate engine class
+
 use 5.008_001;
 use strict;
 use warnings;
@@ -87,7 +88,7 @@ BEGIN {
     *_DEFAULT_CACHE_DIR = sub() { $cache_dir };
 }
 
-# the real defaults are dfined in the parser
+# the real defaults are defined in the parser
 my %parser_option = (
     line_start => undef,
     tag_start  => undef,
